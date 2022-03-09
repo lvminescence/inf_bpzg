@@ -1,2 +1,4 @@
-# najlepszy projekt w zyciu naprawde jest super mocno pracowalismy nad nim
-nic tu jeszcze nie ma sorki
+# Algorytm liczby pierwsze
+## Zofia Grąbczewska, Bartłomiej Pawlus 2a
+
+chyba dziala
