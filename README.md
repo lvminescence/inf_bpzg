@@ -1,4 +1,9 @@
-# Algorytm liczby pierwsze
-## Zofia Grąbczewska, Bartłomiej Pawlus 2a
+# Algorytmy
+### Zofia Grąbczewska, Bartłomiej Pawlus 2a
 
-chyba dziala
+Skonczone skrypty
+- liczby pierwsze
+
+WIP:
+- NWW
+- NWD
