@@ -1,7 +1,7 @@
 # Algorytmy
 ### Zofia Grąbczewska, Bartłomiej Pawlus 2a
 
-### Ukonczone w tym momencie skrypty
+### Ukonczone w tym momencie skrypty:
 #### Liczby pierwsze
 Algorytm do liczb pierwszych jest czesciowo dzialajacy. Znanym problemem jest pojawianie sie liczby 27 w zbiorze liczb. 
 
