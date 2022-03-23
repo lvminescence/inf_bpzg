@@ -28,7 +28,7 @@ int nww(int a, int b) {
 		int nww;
 		iloczyn = a * b;
 		nwd(a, b);
-		nww = iloczyn / a;
+		nww = iloczyn / lc;
 		lc = nww;
 		return 0;
 }
