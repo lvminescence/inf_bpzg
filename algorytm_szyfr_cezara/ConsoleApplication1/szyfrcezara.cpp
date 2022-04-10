@@ -1,11 +1,12 @@
 ﻿#include <iostream>
 #include <cstring>
+#include <stdlib.h>
 using namespace std;
-char tablica[2000];
+string title = "  #####   \n #     # ###### #   # ###### #####      ####  ###### ######   ##   #####    ##\n #           #   # #  #      #    #    #    # #          #   #  #  #    #  #  #\n  #####     #     #   #####  #    #    #      #####     #   #    # #    # #    #\n       #   #      #   #      #####     #      #        #    ###### #####  ######\n #     #  #       #   #      #   #     #    # #       #     #    # #   #  #    #\n  #####  ######   #   #      #    #     ####  ###### ###### ###    #   #  #    # \n\n[Zosia Grabczewska, Bartlomiej Pawlus]\n\n";
 
 int cezar(int klucz, char tab[2000]) {
 	int dl;
-	dl = sizeof(tab);
+	dl = strlen(tab);
 	bool conti = true;
 	if (not (klucz >= -26 && klucz <= 26))
 	{
@@ -16,32 +17,46 @@ int cezar(int klucz, char tab[2000]) {
 		for (int i = 0; i < dl; i++)
 		{
 			if (tab[i] + klucz <= 'z') {
-				tab = tab + klucz;
+				tab[i] = tab[i] + klucz;
 			}
 			else {
-				tab = tab + klucz - 26;
+				tab[i] = tab[i] + klucz - 26;
 			}
 		}
 	}
 	else {
 		for (int i = 0; i < dl; i++) {
-			if (tab[i] + klucz <= 'a') {
-				tab = tab + klucz;
+			if (tab[i] + klucz >= 'a') {
+				tab[i] = tab[i] + klucz;
 			}
 			else {
-				tab = tab + klucz + 26;
+				tab[i] = tab[i] + klucz + 26;
+
 			}
 		}
 	}
-	cout << tab[0];
+	for (int i = 0; i <= dl; i++) {
+		cout << tab[i];
+	}
 	return 0;
 }
 
 int main() {
+	char tablica[2000];
 	int a;
+	cout << title;
+	cout << "[Podaj ciag, ktory chcesz zaszyfrowac. Nie moze on zawierac zadnych spacji.] \n";
 	cin >> tablica;
-	cout << "placeholder";
+	cout << "[Podaj klucz. Musi byc w przedziale <-26; 26>.] \n";
 	cin >> a;
+	system("CLS");
+	cout << title;
+	cout << "[Uzyty klucz: " << a << "] \n";
+	cout << "[Wyraz przed zaszyfrowaniem to: ";
+	for (int i = 0; i <= strlen(tablica); i++) {
+		cout << tablica[i];
+	}
+	cout << "]\n[Wyraz po zaszyfrowaniu to: ";
 	cezar(a, tablica);
+	cout << "]\n\n\n";
 }
-
