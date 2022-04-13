@@ -10,3 +10,6 @@ Algorytm do NWW i NWD jest calkowicie skonczony. Poczatkowo wystepowaly problemy
 
 #### Szyfr Cezara
 Algorytm jest calkowicie skonczony. Nie odczytuje on ciagow bez spacji. Jest to skrypt prosty, nie zawiera dodatkowych funkcji poza szyfrowaniem.
+
+#### Ciag Fibonacciego
+Algorytm jest calkowicie skonczony. Ciag moze maksymalnie miec okolo 93 liczb, dalsze liczby sa zbyt duze dla zmiennych. 
