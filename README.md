@@ -7,3 +7,6 @@ Algorytm do liczb pierwszych jest calkowicie skonczony. Naprawiono problem z poj
 
 #### NWW i NWD
 Algorytm do NWW i NWD jest calkowicie skonczony. Poczatkowo wystepowaly problemy z NWW, jednak zostalo to naprawione. Program zawiera ekran startowy z mozliwoscia wyboru NWW i NWD. W celu oszczedzenia kilka linijek kodu skrypt NWW wykorzystuje skrypt NWD.
+
+#### Szyfr Cezara
+Algorytm jest calkowicie skonczony. Nie odczytuje on ciagow bez spacji. Jest to skrypt prosty, nie zawiera dodatkowych funkcji poza szyfrowaniem.
