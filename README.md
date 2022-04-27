@@ -13,3 +13,6 @@ Algorytm jest calkowicie skonczony. Nie odczytuje on ciagow bez spacji. Jest to 
 
 #### Ciag Fibonacciego
 Algorytm jest calkowicie skonczony. Ciag moze maksymalnie miec okolo 93 liczb, dalsze liczby sa zbyt duze dla zmiennych. 
+
+#### Wyszukiwanie binarne
+Algorytm jest calkowicie skonczony. Z ciagu liczb "2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47" wyszukuje wskazane przez uzytkownika liczby. Jesli liczba nie znajduje sie w tej tablicy, algorytm o tym powiadomi.
